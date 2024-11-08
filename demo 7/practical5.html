@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DOCUMENT</title>
+        <style>
+            .login {
+                border: 3px solid yellow;
+                max-width: max-content;
+                padding: 20px 30px;
+                margin: 10px auto;
+            }
+            input[type=button] {
+                display: block;
+                background-color: blanchedalmond;
+                margin: 0px auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="login">
+            <form>
+                <label for="search">Search:</label>
+                <input type="search" id="search" name="search" placeholder="Search here..">
+                <button type="submit">Submit</button>
+            </form>
+            
+            <form>
+                <label for="email">Enter Your Email</label>
+                <input type="email" name="email" id="email" />
+                <br/>
+                <label for="password">Enter Your Password</label>
+                <input type="password" name="password" id="password"/>
+                <br/>
+                <input type="button" value="LOGIN"/>
+                <button class="btn1" type="reset" name="reset">CANCEL</button><br/>
+            <a href="reset.html">Forgot your password?</a>
+            </form>
+
+            <form>
+                <label>
+                    <input type="radio" name="options" value="option1">
+                    option 1
+                </label><br>
+        
+                <label>
+                    <input type="radio" name="options" value="option2">
+                    option 2
+                </label><br>
+            </form>
+
+            <form>
+                <label>
+                    <input type="checkbox" name="options" value="option1">
+                    option 1
+                </label><br>
+        
+                <label>
+                    <input type="checkbox" name="options" value="option2">
+                    option 2
+                </label><br>
+            </form>
+            <form>
+                <label for="options">Choose Gender:</label>
+                <select id="options" name="options">
+                    <option>select..</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </form>
+            <form>
+                <label for="options">Choose Gender:</label>
+                <select id="options" name="options" multiple size="3">
+                    <option value="option1">prefer not to say</option>
+                    <option value="option1">Male</option>
+                    <option value="option1">Female</option>
+                    <option value="option1">Transgender</option>
+                </select>
+            </form>
+            <input class="inpt" type="submit" value="Submit">
+            <form>
+                <label for="website">Website url:</label>
+                <input type="url" id="website" name="website" placeholder="https://example.com" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
